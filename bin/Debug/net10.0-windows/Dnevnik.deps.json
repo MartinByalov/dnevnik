@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Dnevnik/1.0.0": {
+        "dependencies": {
+          "System.Data.OleDb": "10.0.2"
+        },
+        "runtime": {
+          "Dnevnik.dll": {}
+        }
+      },
+      "System.Data.OleDb/10.0.2": {
+        "runtime": {
+          "lib/net10.0/System.Data.OleDb.dll": {
+            "assemblyVersion": "10.0.0.2",
+            "fileVersion": "10.0.225.61305"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net10.0/System.Data.OleDb.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.2",
+            "fileVersion": "10.0.225.61305"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dnevnik/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Data.OleDb/10.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IsOxcdNcBTVBky0ks3msIQFW/0NazQS4tKddc9OajfwbFXPsaSkVR09657pgnnnu72i9xDvnMx16fLH+7cMXGA==",
+      "path": "system.data.oledb/10.0.2",
+      "hashPath": "system.data.oledb.10.0.2.nupkg.sha512"
+    }
+  }
+}
